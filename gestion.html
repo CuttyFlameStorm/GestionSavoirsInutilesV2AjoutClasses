@@ -1,0 +1,38 @@
+<!--Il faudra donner des indices : passer des paramètres sur le click...-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Les savoirs inutiles Version 2</title>
+    <link rel="stylesheet" type="text/css" href="gestion.css">
+</head>
+<body style="background-color: azure;">
+    <main>
+        <div id="divSaisie">
+        <div>
+            <label for="libelleSavoir">Savoir :</label><input type="text" id="libelleSavoir">
+        </div>
+        <div>
+            <label for="auteur">Auteur :</label><input type="text" id="auteur">
+        </div>
+        <div>
+            <label for="date">Date :</label><input type="date" id="date">
+        </div>
+        <div>
+            <button id="ajouterButton" onclick="ajouter()">Ajouter</button>
+        </div>
+    </div>
+    <h1 style="text-align: center; font-family: consolas; font-size: 1em; color: greenyellow; background-color: black; border-radius: 3px;">Affichage des Savoirs et leurs Auteur par ordre de tri</h1>
+    <div id="divResultat">
+        <ol id="olListeSavoir">
+
+        </ol>
+    </div>
+
+
+    </main>
+
+<script src="gestion.js"></script>
+<script src="triAffichage.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+/* input{
+	width:500px;
+}
+li{
+    cursor: pointer;
+}
+.savoir
+{
+    font-size: xx-large;
+    margin: 5px;
+}
+.infos
+{
+    font-size: x-small;
+    margin: 5px;
+} */
+
+/* -------------------------------------------------------------- */
+/* Styles pour le conteneur principal */
+
+main {
+    padding: 50px;
+}
+/* -------------------------------------------------------------- */
+#divSaisie {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles pour les étiquettes et les champs de saisie */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #7c0c28;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Styles pour le bouton Ajouter */
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  /* Styles pour la liste ordonnée */
+  #olListeSavoir {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Styles pour les éléments de la liste */
+  #olListeSavoir li {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(238, 152, 22, 0.548);
+    transition: 0.2s;
+  }
+  #olListeSavoir li:hover{
+    color: greenyellow;
+    transition: 0.2s;
+    background-color: #a07171a1;
+    box-shadow: 2px 2px 4px rgba(148, 38, 80, 0.856);
+  }
+  
+  /* Styles pour les en-têtes de la liste */
+  #olListeSavoir li:hover h1 {
+    color: #fff;
+    transition: 0.2s;
+  }
+
+  #olListeSavoir li h1 {
+    margin: 0;
+    font-size: 18px;
+    transition: 0.2s;
+  }
+  
+  #olListeSavoir li h2 {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #888;
+    transition: 0.2s;
+  }
+  #olListeSavoir li:hover h2{
+    color: red;
+    transition: 0.2s;
+  }
+  
